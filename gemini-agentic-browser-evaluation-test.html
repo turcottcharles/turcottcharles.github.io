@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gemini Agentic Browser Findings</title>
+  <style>
+    body { margin: 0; font: 18px/1.6 system-ui, sans-serif; background: #f6f2ff; color: #242038; }
+    main { max-width: 820px; margin: 8vh auto; padding: 2.5rem; background: white; border-radius: 18px; box-shadow: 0 12px 40px #33265a1a; }
+    h1 { line-height: 1.15; color: #5941a9; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Gemini Findings: Agentic vs. Deterministic Browsing</h1>
+    <p>Gemini challenged the idea that agentic browsers are a universal upgrade. Their adaptability comes with probabilistic behavior, LLM latency and compute cost, indirect prompt-injection risk, and weaker auditability. It also noted that CAPTCHA, fingerprinting, and IP blocking are largely infrastructure problems, even when bundled into an “agentic” product.</p>
+    <p>Its practical checklist compares UI stability, execution volume, latency budget, data sensitivity, acceptable error rate, and unit economics. Deterministic Playwright or Puppeteer scripts remain preferable for stable workflows, regression tests, high-throughput structured extraction, latency-critical work, and regulated or security-sensitive processes. Agentic browsing fits changing, unstructured, lower-volume, higher-value tasks where retries and some variance are acceptable; a hybrid system can reserve AI for genuine ambiguity.</p>
+  </main>
+</body>
+</html>
